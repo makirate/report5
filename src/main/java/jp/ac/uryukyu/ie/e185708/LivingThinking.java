@@ -7,6 +7,14 @@ public class LivingThinking {
     private boolean dead;
     private String rival;
 
+
+    /**
+     * 初期ステータス設定
+     * @param name 敵の名前
+     * @param hitPoint 敵のHP
+     * @param attack 敵の攻撃力
+     */
+
     public LivingThinking(String name, int maximumHP, int attack) {
         this.name = name;
         hitPoint = maximumHP;
